@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
     <persistence-unit name="jpatest">
+        <class>com.jpa.test2.Course</class>
+        <class>com.jpa.test2.Grades</class>
+        <class>com.jpa.test2.Student</class>
         <properties>
             <!--DB Connection 설정-->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>

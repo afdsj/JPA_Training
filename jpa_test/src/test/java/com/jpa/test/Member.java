@@ -2,6 +2,7 @@ package com.jpa.test;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity(name = "test_member")
 @Table(name = "study_test")

@@ -12,6 +12,9 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int orderNum; // 주문번호
 
+    @Column(name = "member_code")
+    private int memberCode;
+
     @Column(name = "order_status")
     private String orderStatus; // 상태
 
