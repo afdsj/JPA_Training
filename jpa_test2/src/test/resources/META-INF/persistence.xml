@@ -11,9 +11,9 @@
             <property name="javax.persistence.jdbc.password" value="root"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/menudb"/>
             <!--Hibernate의 관련된 설정-->
-            <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.format_sql" value="true"/>
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.show_sql" value="true"/> <!-- 쿼리 보여주기 -->
+            <property name="hibernate.format_sql" value="true"/> <!-- 일자 말고 포맷팅 예쁘게 정리해주기 -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/> <!-- 없는 데이터베이스 사용할 예정이기 때문에 create 사용하기 -->
         </properties>
     </persistence-unit>
 </persistence>

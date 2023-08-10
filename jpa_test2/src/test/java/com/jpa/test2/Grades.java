@@ -6,8 +6,8 @@ import javax.persistence.*;
 @Table(name = "study_grades")
 public class Grades {
 
-    @EmbeddedId
-    private GradesMapping gradesMapping; // PK
+    @EmbeddedId // gradesPK 매핑
+    private GradesMapping gradesMapping;
 
     @JoinColumn(name = "course_num")
     @ManyToOne
