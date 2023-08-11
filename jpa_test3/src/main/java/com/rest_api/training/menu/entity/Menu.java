@@ -1,10 +1,16 @@
-package com.rest.training.menu.entity;
+package com.rest_api.training.menu.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/* JPA를 사용하여 DB와 연동하는 엔티티 클래스
+*  JPA가 알아서 쿼리를 돌리면 여기에 담겨서 보여줌
+*
+* @Entity : 이 클래스가 JPA 엔티티임을 나타낸다 DB에서 저장되고 관리되는 실제 데이터
+*           인스턴스들이 DB의 레코드와 매핑된다
+* @Table  : 엔티티와 매핑할 테이블 지정, name 속성으로 매핑할 테이블 이름 지정이 가능하다 (테이블 이름과 동일 해야 함) */
 @Entity
 @Table(name = "tbl_menu")
 public class Menu {

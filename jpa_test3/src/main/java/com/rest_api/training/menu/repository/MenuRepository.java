@@ -1,6 +1,6 @@
-package com.rest.training.menu.repository;
+package com.rest_api.training.menu.repository;
 
-import com.rest.training.menu.entity.Menu;
+import com.rest_api.training.menu.entity.Menu;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /* Menu : 엔티티 클래스를 의미
